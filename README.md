@@ -20,5 +20,13 @@ kubectl create -f grafana-service.yaml
 # Access Grafana
 username: admin
 password: prom-operator
+# Grafana Data Source
+click on Configuration > Datasources >> Add Datasource
+Select Jaeger under distributed tracing
+Under HTTP in URL textbox put the following
+simpletest-query.observability.svc.cluster.local:16686
+# Create k8 cluster monitoring dashboard in Grafana
+import kubernetes-cluster-monitoring-via-prometheus_rev3.json dashboard from grafana folder
+
 
 
