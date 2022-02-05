@@ -3,7 +3,7 @@
 In this project, we will build a obesrvability pack for cloud native solutions. This pack
 will contains the following dashboards:
 1. Kubernetes cluster metrics
-2. Application metrics (includimh distributed tracing)
+2. Application metrics (including distributed tracing)
 3. SLOs/SLIs & Error budgets
 
 ## Dependencies
